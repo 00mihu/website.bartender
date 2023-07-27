@@ -1,0 +1,790 @@
+$grid-breakpoints: (
+sm: <992px
+lg: >992px
+);
+
+$container-max-widths: (
+sm: <992px
+lg: >992px
+);
+
+body {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+}
+.wrapper {
+    text-align: center;
+}
+
+a {
+	color: black;
+    margin-top: 5px;
+    display: inline;
+	margin: 0%;
+	position: sticky;
+	position: relative;
+	margin-block-end: auto;
+	text-decoration: none;
+
+
+}
+
+a:hover {
+	color:white;
+	text-decoration: none;
+}
+
+* {
+	font-family: 'Times New Roman';
+    }
+
+h1 {
+    font-size: 40px;
+	position: sticky;
+}
+h2 {
+    font-size: 35px;
+	margin: 3%;
+}
+h3 {
+    font-size: 30px;
+} 
+h4 {
+    font-size: 25px;
+} 
+h5 {
+    font-size: 20px;
+} 
+h6 {
+    font-size: 18px;
+}
+.container-fluid {
+    background-color: black;
+  	padding: 0%;	
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: black;
+
+  }
+  
+  .topnav a {
+	float: left;
+    display: block;
+    color: #888888;
+    text-align: center;
+	margin: 0px 15px 0px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline;
+    justify-content: center;
+	border-bottom: 2px solid rgb(0, 0, 0);
+  } 
+
+  /* padding: 14px 16px;
+  	display: block;
+	display: inline;
+	display:inline-block; */
+  
+  .topnav a:hover {
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+  }
+  
+  .topnav a.active {
+ 	color: gray;
+  }
+ 
+  /* bylo diplay:none */
+  .iconnav {
+	width: 35px;
+	height: 5px;
+	color: #ffffff;
+	background-color: black;
+	margin: 6px 0;
+  }
+
+  .fa {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-bars {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	font: normal normal normal 14px/1 FontAwesome;
+}
+/* font: normal normal normal 14px/1 FontAwesome;
+*/
+
+.navi-navi {
+	background-color: black;
+	padding: 0%;
+	padding-top: 0%;
+}
+
+.navbar {
+	background-color: black !important;
+	color: rgb(255, 255, 255);
+    padding: 1%;
+	padding-bottom: 7%;
+	padding-top: 2%;
+	margin-left: 0%;
+	display:block;
+}
+
+.nav-link {
+	
+	display: inline;
+	display: block;
+	justify-content: space-between;
+	padding: 3%;
+	justify-content: end;
+	font-size: 28px;
+	margin-bottom: 3%;
+ }
+ .nav-item {
+	padding: 0%;
+	margin-inline: 0px;
+	justify-content: end;
+
+ }
+
+ .nav-position {
+	width: 100%;
+	
+ }
+
+.icon-space {
+	padding-left: 20%;
+	margin-bottom: 0px;
+	margin-bottom: 0px;
+    margin-top: auto;
+}
+
+.space {
+	padding-top: 10%;
+}
+
+.space2 {
+	padding-top:2%;
+}
+
+.all-browsers {
+	margin: 0;
+	padding: 5px;
+	background-color: rgb(249, 174, 13);
+  }
+.all-browsers2 {
+	margin: 0;
+	padding: 5px;
+	background-color: rgb(0, 0, 0);
+}
+
+ .car-pos {
+	 margin-top: -100px;
+	 width: 100%;
+	 justify-content: center;
+
+ } 
+ /* -110px -50px @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+ .car-pos2 {
+	bottom: -45%;
+    left: 8%;
+	right: 8%;
+	text-align: center;
+	color: #ffffff;
+	padding: 3%;
+	margin-bottom: 5%;
+	width: 60%;
+}
+
+
+.abs {
+	position: absolute;
+}
+.form-control {
+	width: fit-content;
+	background: black;
+	border: 0;
+	border-bottom: #ffffff;
+	padding: 2%;
+	width: 60%;
+	padding-right: 2%;
+	background-color: black; 
+	border-color: black;
+	border-right-width: 0;
+	display: flex;
+	}
+
+ .search-but {
+	position: relative;
+	align-self: center;
+ }
+
+ .carousel-item {
+	width: 100%;
+    height: 618px;
+	
+ }
+  
+.carousel-control-next-icon {
+    background-image: url(../assets/icons/arrow-right.svg);
+}
+.carousel-control-prev-icon {
+    background-image: url(../assets/icons/arrow-left.svg);
+}
+.carousel-control-next {
+	position:relative;
+	display: inline;
+	width: 4%;
+	margin: 0;
+}
+.carousel-control-prev {
+	position:relative;
+	display: inline;
+	width: 4%;
+	margin: 0;
+}
+.pos {
+	text-align: right;
+	display: block;
+} 
+div {
+	display: block;
+}	
+.inline {
+	display: inline;
+}					
+.height {
+	height: 20px;
+}		
+
+/* kolor fontu czarny */
+.card-body {
+	font-style: normal;
+	text-decoration-color: black;
+	text-decoration: black;
+}
+.card-text {
+	text-decoration: black;
+	text-decoration-color: black;
+}
+
+p {
+	text-decoration-color:  black;
+}
+.margins {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.pad-left {
+	padding-left: 7%;
+}
+.center {
+	margin: auto;
+	width: 50%;
+}
+.btn-outline-dark {
+	margin-top: 0px;
+	--bs-btn-hover-color: white;
+}
+.pad-all {
+	padding: 3%;
+}
+.pad-top0 {
+	padding-top: 0%;
+}
+.bot-box {
+	padding: 5%;
+	color: white;
+	background-color: black;
+	
+}
+.bot-box2 {
+	padding-top: 0%;
+}
+.card {
+	--bs-card-border-width: 0;
+}
+.btn {
+	--bs-btn-border-radius: 0;
+	display: inline;
+	width: 45%;
+}
+.btn2 {
+	width: 100%;
+}
+.btn3 {
+	width: 55%;
+}
+
+.pagination {
+	--bs-pagination-border-color: 0;
+ }
+.bat-left {
+	margin-inline-start: 50px;
+}
+.bat-right {
+	margin-inline-end: 50px;
+}
+.page-link {
+	margin: 0px;
+}
+.list-group {
+	--bs-list-group-border-width: 0;
+	--bs-list-group-item-padding-x: 0;
+	--bs-list-group-item-padding-y: 0;
+}
+.guz {
+	justify-content: space-between;
+	display: flex;
+ }
+ .just-left {
+	justify-content: left;
+	display:flex
+ }
+ hr {
+	margin: 3%;
+	opacity: .15;
+	margin-top: 0;
+ }
+ .inline {
+	display: block;
+	display: inline;
+ }
+
+ /* .txt-form {
+	text-align-last: 0px;
+	text-align: 0px;
+	margin-left: 0px;
+ }
+*/
+ .txt-g {
+	margin: auto;
+	justify-content: center;
+	color: rgb(121, 121, 121);
+	line-height: 10px;
+}
+.ps-3 {
+	margin-inline: 20%;
+	padding: 10%;
+}
+/*     padding-left: 1rem!important;
+*/
+
+
+/*.navbar-nav {
+	padding: 0px;
+	margin-right: 0px;
+	padding-right: 0px;
+	
+}
+*/
+
+.object-fit-cover {
+	object-fit: none;
+}
+
+.objectfit {
+	object-fit: 100% ;
+}
+
+.disp {
+display: inline-block;
+}
+
+.carousel-caption {
+	right: auto;
+	left: 15%;
+	background-color: black;
+	position: -10%;
+}
+
+
+/* 
+@media screen and (max-width: 900px) and (min-width: 600px) {
+	div.example {
+	  font-size: 50px;
+	  padding: 50px;
+	  border: 8px solid black;
+	  background: yellow;
+	}
+  }
+  */
+  /* that was here 
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+html, body, div, span, applet, object, iframe,
+ p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+	/* margin: 10%;
+	padding: 10%;
+	border: 5px;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; 
+
+/* HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, 
+header {
+	background-color: black;
+} 
+hgroup, menu, 
+.nav-link {
+color: rgb(7, 6, 6);
+} */
+
+/*.bg-body-tertiary { 
+    background-color: black;
+} 
+.navbar-brand {
+	color: black;
+}
+.nav-link.active {
+	color: white;   /*klopotek 
+}
+.navbar-custom {
+color: black;
+}
+
+section {
+	display: block;
+}
+
+/*body {
+	background-color: white;
+	line-height: 1;
+	margin: 0%;
+	padding: 0%;
+	border: 3px;
+	font-size: 100%;
+	align-self: 1%;
+} 
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.container div div {
+	text-align: center;
+	border-color: blue;
+	border: 1px solid;
+	padding: 0%;
+	margin: 0px;
+	background-color: burlywood;
+    } */
+
+/*
+.row {
+	font-size: large;
+	margin: 0%;
+	padding: 0%;
+}
+.carousel-item {
+    margin: 3px;
+    padding: 3px;
+
+}
+
+/*
+  @media screen small and (max-width: 992px) {
+	.topnav a:not(:first-child) {display: none}
+	.topnav a.icon {
+	  float: right;
+	  display: block;
+	}
+  }
+
+  @media screen and (max-width: 992px) {
+	.topnav a:not(:first-child) {display: none;}
+	.topnav a.icon {
+	  float: right;
+	  display: block;
+	}
+  }
+*/
+
+  *albo 
+
+ /* @media screen and (max-width: 992px) {
+	.topnav.responsive {position: relative;}
+	.topnav.responsive .icon {
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+	.topnav.responsive a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+  }
+
+  @media (max-width: 991.9px) {
+    .container,.container-sm {
+        max-width:992px
+    }
+}
+
+@media (min-width: 992px) {
+    .container,.container-lg {
+        max-width:992px
+    }
+}
+
+  najnowsze niedzialajace
+
+
+@media (min-width: 992px) {
+    .col-sm {
+        flex:1 0 0%
+    }
+}
+
+@media screen and (max-width: 992px){
+	.car-pos2 {
+		width: 90%;
+
+		left: 3%;
+    	right: 3%;
+		
+	}	
+}
+
+@media (max-width: 992px) {
+.container {
+    max-width: 888px;
+} 
+}  */
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+    display: inline;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  
+
+  .topnav a:hover {
+    border-bottom: 1px solid white;
+    transition: 1s;
+    float: left;
+	text-decoration: none;
+	width: fit-content;
+
+   }
+  
+  /* Add an active class to highlight the current page */
+  .active {
+    background-color: #000000;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  
+
+
+  /* Dropdown container - needed to position the dropdown content */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Style the dropdown button to fit inside the topnav */
+  .dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a dark background on topnav links and the dropdown button on hover */
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #000000;
+    color: white;
+    float: inline-end;
+    flood-opacity: 20%;
+  }
+  
+  /* Add a grey background to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .iconset {
+	display: block;
+}
+
+.container-fluid {
+    background-color: rgb(255, 255, 255);
+	}
+
+
+
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 992px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: relative;
+
+    }
+
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+	.topnav a:not(all), .dropdown .dropbtn {
+		display: none;
+	}
+
+	.topnav .icon {
+ 		display: flex;
+		height: 100%;
+		flex-direction: column;
+ 	}
+
+	.icon-bar {
+		width: 20px;
+		background-color: white;
+		height: 2px;		
+	 }
+
+	 .icon-bar:first-child {
+		margin-bottom: 5px;
+	 }
+
+	 .icon-active .icon-bar:first-child {
+		transform: rotate(45deg);
+		transform-origin:  50% 50%;
+		position: absolute;
+ 		margin-bottom: 0px;		
+	 }
+
+	 .icon-active .icon-bar:nth-child(2) {
+		transform: rotate(-45deg);
+		transform-origin:  50% 50%;
+		position: absolute;
+	 }
+
+	.just {
+		justify-content: center;
+	}
+   
+	a {display: block;
+	}
+
+	.icon-space {display: none;
+		padding: 0%;
+	}
+
+	.center {width: 90%;
+	}
+
+	
+	div.container {justify-content: center;
+		padding-right: 0px;
+   		padding-left: 0px;
+		margin-right: 0px;
+		margin-left: 0px;
+	 }
+
+	
+
+	.row-nav {
+		margin-top: -45%;
+		padding-bottom: 60%;
+
+	}
+	
+
+
+	}
+
+	.modal-img {
+			height: 140px;
+			object-fit: cover;
+			object-position: center;
+	}
+
+  
+ /* @media screen and (max-width: 1000px) div {
+                      display: none;
+					  justify-content: center  }  
+					  */
+
