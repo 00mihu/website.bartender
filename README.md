@@ -1,3 +1,3 @@
 # website.bartender
 
-privat order website
+project using JS, CSS and HTML, one of training task to develop programing skills
